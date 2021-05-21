@@ -16,22 +16,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3Z-cu-ggK">
-                                <rect key="frame" x="107" y="230" width="200" height="100"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3Z-cu-ggK">
+                                <rect key="frame" x="107" y="567" width="200" height="100"/>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lG9-D8-2Af"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdE-Aj-3ty">
-                                <rect key="frame" x="107" y="360" width="200" height="100"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdE-Aj-3ty">
+                                <rect key="frame" x="107" y="697" width="200" height="100"/>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X3e-yl-Fbf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNa-s0-hvt">
-                                <rect key="frame" x="107" y="88" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNa-s0-hvt">
+                                <rect key="frame" x="107" y="425" width="200" height="100"/>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O4O-hy-dtX"/>
@@ -43,6 +43,7 @@
                         <constraints>
                             <constraint firstItem="OdE-Aj-3ty" firstAttribute="centerX" secondItem="XNa-s0-hvt" secondAttribute="centerX" id="D1Z-Bl-J9Z"/>
                             <constraint firstItem="q3Z-cu-ggK" firstAttribute="top" secondItem="XNa-s0-hvt" secondAttribute="bottom" constant="42" id="Lg2-Sa-S4h"/>
+                            <constraint firstItem="XNa-s0-hvt" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ThT-Ld-mME"/>
                             <constraint firstItem="q3Z-cu-ggK" firstAttribute="centerX" secondItem="XNa-s0-hvt" secondAttribute="centerX" id="WaF-iW-vFI"/>
                             <constraint firstItem="OdE-Aj-3ty" firstAttribute="top" secondItem="XNa-s0-hvt" secondAttribute="bottom" constant="172" id="rHD-Ho-1bS"/>
                             <constraint firstItem="XNa-s0-hvt" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tn6-po-YeP"/>
